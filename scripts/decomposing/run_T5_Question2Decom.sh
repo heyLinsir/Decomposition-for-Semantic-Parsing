@@ -1,0 +1,11 @@
+## ComplexWebQuestions
+# Training
+python ./src/decomposing/run_T5_Question2Decom.py --model_name_or_path=t5-large --output_dir=./runs/T5-large-decompose-ComplexWebQuestions --num_examples=-1 --num_train_epochs=1000 --learning_rate=1e-4 --model_type=t5 --eval_dataset=KQA --domain_name=None --do_train --train_data_file=./data/BREAK/logical-forms/train.csv --do_eval --eval_data_file=./data/BREAK/logical-forms/dev.csv --per_gpu_train_batch_size=2 --per_gpu_eval_batch_size=10 --gradient_accumulation_steps=8 --evaluate_during_training --save_steps=1000 --logging_steps=100 --save_total_limit=3
+# Inference
+# python ./src/decomposing/run_T5_Question2Decom.py --model_name_or_path=t5-large --output_dir=./runs/T5-large-decompose-ComplexWebQuestions/best_bleu4 --num_examples=-1 --num_train_epochs=1000 --learning_rate=1e-4 --model_type=t5 --eval_dataset=KQA --domain_name=None --train_data_file=./data/BREAK/logical-forms/train.csv --do_eval --eval_data_file=./data/BREAK/logical-forms/dev.csv --per_gpu_train_batch_size=2 --per_gpu_eval_batch_size=3 --gradient_accumulation_steps=8 --evaluate_during_training --save_steps=1000 --logging_steps=100 --save_total_limit=3
+
+## KQA
+# Training
+# python ./src/decomposing/run_T5_Question2Decom.py --model_name_or_path=t5-large --output_dir=./runs/T5-large-decompose-KQA --num_examples=-1 --num_train_epochs=1000 --learning_rate=1e-4 --model_type=t5 --eval_dataset=KQA --domain_name=None --do_train --train_data_file=./data/BREAK/logical-forms/train.csv --do_eval --eval_data_file=./data/BREAK/logical-forms/dev.csv --per_gpu_train_batch_size=2 --per_gpu_eval_batch_size=10 --gradient_accumulation_steps=8 --evaluate_during_training --save_steps=1000 --logging_steps=100 --save_total_limit=3
+# Inference
+# python ./src/decomposing/run_T5_Question2Decom.py --model_name_or_path=t5-large --output_dir=./runs/T5-large-decompose-KQA/best_bleu4 --num_examples=-1 --num_train_epochs=1000 --learning_rate=1e-4 --model_type=t5 --eval_dataset=KQA --domain_name=None --train_data_file=./data/BREAK/logical-forms/train.csv --do_eval --eval_data_file=./data/BREAK/logical-forms/dev.csv --per_gpu_train_batch_size=2 --per_gpu_eval_batch_size=4 --gradient_accumulation_steps=8 --evaluate_during_training --save_steps=1000 --logging_steps=100 --save_total_limit=3

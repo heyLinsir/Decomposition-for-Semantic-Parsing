@@ -1,0 +1,11 @@
+## ComplexWebQuestions
+# training
+python ./src/semantic-parsing/run_T5_Decom2Logic.py --model_name_or_path=t5-large --output_dir=./runs/T5-large-parsing-ComplexWebQuestions --num_examples=-1 --num_train_epochs=10 --learning_rate=1e-4 --model_type=t5 --eval_dataset=ComplexWebQuestions --domain_name=None --do_train --train_data_file=./data/BREAK/logical-forms/train.csv --do_eval --eval_data_file=./data/BREAK/logical-forms/dev.csv --per_gpu_train_batch_size=4 --per_gpu_eval_batch_size=6 --gradient_accumulation_steps=4 --evaluate_during_training --save_steps=5000000000 --logging_steps=100 --save_total_limit=1
+# evaluation
+# python ./src/semantic-parsing/run_T5_Decom2Logic.py --model_name_or_path=t5-large --output_dir=./runs/T5-large-parsing-ComplexWebQuestions/best_EM_14500 --num_examples=-1 --num_train_epochs=10 --learning_rate=1e-4 --model_type=t5 --eval_dataset=ComplexWebQuestions --domain_name=None --train_data_file=./data/BREAK/logical-forms/train.csv --do_eval --eval_data_file=./data/BREAK/logical-forms/dev.csv --per_gpu_train_batch_size=4 --per_gpu_eval_batch_size=6 --gradient_accumulation_steps=4 --evaluate_during_training --save_steps=5000000000 --logging_steps=100 --save_total_limit=1
+
+## KQA
+# training
+# python ./src/semantic-parsing/run_T5_Decom2Logic.py --model_name_or_path=t5-large --output_dir=./runs/T5-large-parsing-KQA --num_examples=-1 --num_train_epochs=10 --learning_rate=1e-4 --model_type=t5 --eval_dataset=KQA --domain_name=None --do_train --train_data_file=./data/BREAK/logical-forms/train.csv --do_eval --eval_data_file=./data/BREAK/logical-forms/dev.csv --per_gpu_train_batch_size=4 --per_gpu_eval_batch_size=6 --gradient_accumulation_steps=4 --evaluate_during_training --save_steps=500000000 --logging_steps=100 --save_total_limit=1
+# evaluation
+# python ./src/semantic-parsing/run_T5_Decom2Logic.py --model_name_or_path=t5-large --output_dir=./runs/T5-large-parsing-KQA/best_EM_40500 --num_examples=-1 --num_train_epochs=10 --learning_rate=1e-4 --model_type=t5 --eval_dataset=KQA --domain_name=None --train_data_file=./data/BREAK/logical-forms/train.csv --do_eval --eval_data_file=./data/BREAK/logical-forms/dev.csv --per_gpu_train_batch_size=4 --per_gpu_eval_batch_size=6 --gradient_accumulation_steps=4 --evaluate_during_training --save_steps=500000000 --logging_steps=100 --save_total_limit=1
