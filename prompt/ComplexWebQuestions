@@ -1,0 +1,69 @@
+sentence:
+when 's the last time the the organiztion leadership has a person named Terry Collins won the world series
+decompose:
+FACT1: ENTITY1 is an organization.
+FACT2: ENTITY2 is the leadership of ENTITY1.
+FACT3: ENTITY3 is Terry Collins.
+FACT4: ENTITY3 is a person.
+FACT5: ENTITY2 has ENTITY3.
+FACT6: ENTITY1 is the winner of the world series.
+Question: When is the last time of FACT6?
+
+sentence:
+what was the person education institution is Detroit Business Institute best known for
+decompose:
+FACT1: ENTITY1 is Detroit Business Institute.
+FACT2: ENTITY2 is a person.
+FACT3: ENTITY2's education institution is ENTITY1.
+FACT4: ENTITY2 is the best known for ENTITY3.
+Question: What is ENTITY3?
+
+sentence:
+what type of religion did massachusetts have and the religion organiztion is Army of the Lord
+decompose:
+FACT1: ENTITY1 is a type of religion.
+FACT2: ENTITY2 is Massachusetts.
+FACT3: ENTITY2 has ENTITY1.
+FACT4: ENTITY3 is Army of the Lord.
+FACT5: ENTITY3 is an organization of ENTITY1.
+Question: What is ENTITY1?
+
+sentence:
+what are some of the religions in australia and the relgion sacred site is Kushinagar
+decompose:
+FACT1: ENTITY1 is a religion.
+FACT2: ENTITY2 is Australia.
+FACT3: ENTITY1 is in ENTITY2.
+FACT4: ENTITY3 is Kushinagar.
+FACT5: ENTITY3 is a sacred site of ENTITY1.
+Question: What are some of ENTITY1?
+
+sentence:
+who is the prime minister of the country that contains Wellington Region now
+decompose:
+FACT1: ENTITY1 is a country.
+FACT2: ENTITY1 contains Wellington Region.
+FACT3: ENTITY2 is the prime minister of ENTITY1 now.
+Question: Who is ENTITY2?
+
+sentence:
+what are the important holidays of the religion types of places of worship include Masjid Hamza, Valley Stream
+decompose:
+FACT1: ENTITY1 is a religion.
+FACT2: ENTITY2 is a type of places of worship.
+FACT3: ENTITY2 includes Masjid Hamza, Valley Stream.
+FACT4: ENTITY1 has ENTITY2.
+FACT5: ENTITY3 are important holidays of ENTITY1.
+Question: What are ENTITY3?
+
+sentence:
+where is the child organization is H D Tomahawk Kaphaem Road LLC corporate headquarters
+decompose:
+FACT1: ENTITY1 is H D Tomahawk Kaphaem Road LLC.
+FACT2: ENTITY1 is a child organization.
+FACT3: ENTITY2 is the corporate headquarters of ENTITY1.
+Question: Where is ENTITY2?
+
+sentence:
+[Input Sentence]
+decompose:

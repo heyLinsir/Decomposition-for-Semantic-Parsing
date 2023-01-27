@@ -1,0 +1,132 @@
+sentence:
+Which has the smallest number of population, the Dunfermline or Luton, either?
+decompose:
+FACT1: ENTITY1 is the Dunfermline.
+FACT2: ENTITY2 is Luton.
+Question: Which has the smallest number of population, ENTITY1 or ENTITY2, either?
+
+sentence:
+Which one is shorter, The Cassandra Crossing or Road to Perdition?
+decompose:
+FACT1: ENTITY1 is The Cassandra Crossing.
+FACT2: ENTITY2 is Road to Perdition.
+Question: Which one is shorter, ENTITY1 or ENTITY2?
+
+sentence:
+The publication date of the visual work named The Brothers Grimm is 2005-10-06 where it is published
+decompose:
+FACT1: ENTITY1 is a visual work.
+FACT2: ENTITY1 is named The Brothers Grimm.
+FACT3: ENTITY1's publication date is 2005-10-06.
+Question: Where is ENTITY1 published?
+
+sentence:
+My Week with Marilyn uses a Visa number 133047, and what's the beginning time?
+decompose:
+FACT1: ENTITY1 is My Week with Marilyn.
+FACT2: ENTITY1 uses a Visa number 133047.
+Question: What's the beginning time of FACT2?
+
+sentence:
+John Adams (who's got Laura Linney as part of the cast) has Tom Hollander as part of the cast, what's his role as part of this work?
+decompose:
+FACT1: ENTITY1 is John Adams.
+FACT2: ENTITY2 is Laura Linney.
+FACT3: ENTITY2 is part of the cast of ENTITY1.
+FACT4: ENTITY3 is Tom Hollander.
+FACT5: ENTITY3 is part of the cast of ENTITY1.
+Question: What's ENTITY3's role as part of ENTITY1?
+
+sentence:
+The university in which Matt Lucas receives his education isn't the time of its origin in 780?
+decompose:
+FACT1: ENTITY1 is a university.
+FACT2: ENTITY2 is Matt Lucas.
+FACT3: ENTITY2 receives his education in ENTITY1.
+FACT4: The time of ENTITY1's origin isn't 780.
+Question: Is FACT4 true?
+
+sentence:
+How Texas (whose original language is English) has a relationship with Glenn Ford Glenn Ford
+decompose:
+FACT1: ENTITY1 is Texas.
+FACT2: ENTITY1's original language is English.
+FACT3: ENTITY2 is Glenn Ford Glenn Ford.
+Question: How ENTITY1 has a relationship with ENTITY2?
+
+sentence:
+Is Martine McCutcheon's native tongue name the same as Jeremy Renner?
+decompose:
+FACT1: ENTITY1 is Martine McCutcheon.
+FACT2: ENTITY1's native tongue name is ENTITY2.
+FACT3: ENTITY3 is Jeremy Renner.
+Question: Is ENTITY2 the same as ENTITY3?
+
+sentence:
+The population of Warren County (part of which shares a border with Cattaraugus County) is 40885 at what time it happens
+decompose:
+FACT1: ENTITY1 is Warren County.
+FACT2: ENTITY2 is Cattaraugus County.
+FACT3: Part of ENTITY1 shares a border with ENTITY2.
+FACT4: ENTITY1's population is 40885.
+Question: At what time FACT4 happens?
+
+sentence:
+How many medals did James Stewart (who won the 13th Academy Award) receive, whose country is the United States of America
+decompose:
+FACT1: ENTITY1 is James Stewart.
+FACT2: ENTITY1 won the 13th Academy Award.
+FACT3: ENTITY2 is a medal.
+FACT4: ENTITY2's country is the United States of America.
+FACT5: ENTITY1 received ENTITY2.
+Question: How many ENTITY2?
+
+sentence:
+Who has the smallest area between independently run cities and is part of the Washington metropolitan area?
+decompose:
+FACT1: ENTITY1 is an independently run city.
+FACT2: ENTITY1 is part of the Washington metropolitan area.
+Question: Which ENTITY1 has the smallest area?
+
+sentence:
+How many organisations that are big expectations production company (which has Robbie Coltrane as a member of the team) or are owned by Metro-Goldwyn-Mayer
+decompose:
+FACT1: ENTITY1 is an organisation.
+FACT2: ENTITY2 is big expectations production company.
+FACT3: ENTITY1 is ENTITY2.
+FACT4: ENTITY3 is Robbie Coltrane.
+FACT5: ENTITY3 is a member of the team of ENTITY2.
+FACT6: ENTITY1 is owned by Metro-Goldwyn-Mayer.
+FACT7: FACT3 or FACT6.
+Question: How many ENTITY1?
+
+sentence:
+How many human settlement that contains Montclair State University or that is the death place of Donald M. Payne
+decompose:
+FACT1: ENTITY1 is a human settlement.
+FACT2: ENTITY1 contains Montclair State University.
+FACT3: ENTITY1 is the death place of Donald M. Payne.
+FACT4: FACT2 or FACT3.
+Question: How many ENTITY1?
+
+sentence:
+For a tabletop play named after War on Terror (which is the main subject of the book Homeland), is it due out in 2006?
+decompose:
+FACT1: ENTITY1 is a tabletop play.
+FACT2: ENTITY2 is War on Terror.
+FACT3: ENTITY1 is named after ENTITY2.
+FACT4: ENTITY2 is the main subject of the book Homeland.
+Question: Is ENTITY1 due out in 2006?
+
+sentence:
+How many county of Oregon that is located in or next to Antarctica (the one that is the main subject of March of the Penguins)
+decompose:
+FACT1: ENTITY1 is a county of Oregon.
+FACT2: ENTITY2 is Antarctica.
+FACT3: ENTITY1 is located in or next to ENTITY2.
+FACT4: ENTITY2 is the main subject of March of the Penguins.
+Question: How many ENTITY1?
+
+sentence:
+[Input Sentence]
+decompose:
